@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  a{
+    text-decoration: none !important;
+  }
+  
+  .bggrey{
+    background-color: white;
+    height: 100vh;
+    padding-top: 5%;
+  }
+  
+  .leftnav{
+    height: 100vh !important;
+    background-color: #282c34;
+    position: fixed !important;
+    z-index: 1 !important;
+    /* width: 200px; */
+  }
+  
+  
+  .mobile_card{
+    
+  
+    width: 300px; 
+    height: 650px;
+    /* background-color: aquamarine; */
+    margin: 5px 25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px; 
+    /* position: relative; */
+    /* z-index: 0; */
+  
+    
+  /*   
+    display: grid;
+    grid-template-columns: repeat(2, auto); */
+    /* justify-content: space-around; */
+  
+    /* position: relative; */
+    /* flex-direction: column; */
+    /* margin: auto; */
+    /* text-align: center !important; */
+  
+  }
+  
+  
+  .delete_btn{
+    background-color: darkcyan;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: aliceblue;
+  }
+  
+  .edit_btn{
+    
+    background-color: darkcyan;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: aliceblue;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  /* .left_margin{ */
+    /* width: 300px; */
+    /* height: 100vh; */
+    /* background-color: #61dafb; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* z-index: 0; */
+    /* margin-left: 200px; */
+  
+  /* } */
+  
+  .d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+  }
+  
+  
+  .slider_h {
+    height: 650px;
+    /* overflow: hidden;    */
+    object-fit: cover;
+  }
+  .slider_h img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .loader_body{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+  }
+  .loader_body img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+  
+.book_container {
+	width: 250px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+}
+
+.book_img {
+	width: 250px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.book_name {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.book_author {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.book_price {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.book_price > span {
+	color: #21a700;
+}
+
+.buy_btn {
+	width: 100%;
+	height: 50px;
+	outline: none;
+	border: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: #f4d072;
+	margin-top: 10px;
+}
